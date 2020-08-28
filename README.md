@@ -1,6 +1,6 @@
 # typescript-fundamentals
 
-**Instalar TypeScript:
+**Instalar TypeScript:**
 ```
 npm install -g typescript
 ```
