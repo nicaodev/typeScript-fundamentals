@@ -6,7 +6,6 @@ let Carro_1 = new Carro('Bmw', 4);
 let Carro_2 = new Carro('Onix', 4);
 let Carro_3 = new Carro('Dodge', 4);
 
-// Lista de carro da concessionária.
 let listaDeCarros: Array<Carro> = [Carro_1, Carro_2, Carro_3];
 
 let concessionaria = new Concessionaria('Av Paulista', listaDeCarros)

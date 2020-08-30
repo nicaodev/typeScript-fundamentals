@@ -9,7 +9,6 @@ var Pessoa_1 = __importDefault(require("./Pessoa")); //Formas de importar. Pesso
 var Carro_1 = new Carro_4.default('Bmw', 4);
 var Carro_2 = new Carro_4.default('Onix', 4);
 var Carro_3 = new Carro_4.default('Dodge', 4);
-// Lista de carro da concessionária.
 var listaDeCarros = [Carro_1, Carro_2, Carro_3];
 var concessionaria = new Concessionaria_1.Concessionaria('Av Paulista', listaDeCarros);
 // Comprar carro

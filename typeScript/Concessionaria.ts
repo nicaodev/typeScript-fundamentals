@@ -1,6 +1,7 @@
 import Carro from "./Carro"; // export default no carro
+import { IConcessionaria } from "./IConcessionaria";
 
-export class Concessionaria {
+export class Concessionaria implements IConcessionaria {
     private endereco: string;
     private listaDeCarros: Carro[];
 
@@ -14,5 +15,9 @@ export class Concessionaria {
     }
     public mostrarCarrosDisponiveis(): Array<Carro> {
         return this.listaDeCarros;
+    }
+
+    public fornecerHorariosDeFuncionamento(): string {
+        return 'De segunda a sexta das 08:00 as 16:00';
     }
 }
