@@ -3,7 +3,7 @@ import { Concessionaria } from "./Concessionaria";
 
 //Classe apenas para exercitar INTERFACES.
 
-class ConcessionariaDAO implements IDAO {
+class ConcessionariaDAO implements IDAO<Concessionaria> {
     nomeTabela = 'tb_concessionaria';
 
     inserir(object: Concessionaria): boolean {
